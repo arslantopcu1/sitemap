@@ -5,8 +5,8 @@ import logging
 from pysitemap import crawler
 
 parser = argparse.ArgumentParser(description='Python SiteMap Crawler')
-parser.add_argument('--domain', default="https://www.lipsum.com", help="File extension to skip")
-parser.add_argument('--task', type=int, default=10, help="File extension to skip")
+parser.add_argument('--domain', default="https://www.lipsum.com", help="Crawler Domain")
+parser.add_argument('--task', type=int, default=10, help="Task count")
 
 arg = parser.parse_args()
 
